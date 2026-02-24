@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="top"></div>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <a href="index.html" class="logo">Essa<span>Motorcars</span></a>
+          <ul class="nav-links" id="navLinks">
+            <li>
+              <a
+                href="index.html
+              "
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="index.html#cars"
+                >Inventory <i class="bx bx-chevron-down"></i
+              ></a>
+              <div class="dropdown">
+                <ul>
+                  <li>
+                    <a href="index.html#cars">Aston Martin</a>
+                    <div class="sub-dropdown">
+                      <ul>
+                        <li><a href="aston dbs.html">DBS</a></li>
+                        <li><a href="aston db11.html">DB11</a></li>
+                        <li><a href="aston db12.html">DB12</a></li>
+                        <li><a href="aston Vanquish.html">Vanquish</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#bentley">Bentley</a>
+                    <div class="sub-dropdown">
+                      <ul>
+                        <li><a href="Bentley Bentayga.html">Bentayga</a></li>
+                        <li>
+                          <a href="Bentley Continental GTC.html"
+                            >ContinentalGTC</a
+                          >
+                        </li>
+                        <li>
+                          <a href="Bentley Flying Spur S.html">Flying Spur S</a>
+                        </li>
+                        <li><a href="bentley cgt speed.html">CGT Speed</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#ferrari">Ferrari</a>
+                    <div class="sub-dropdown">
+                      <ul>
+                        <li>
+                          <a href="Ferrari Purosangue.html">Purosangue</a>
+                        </li>
+                        <li>
+                          <a href="Ferrari 458 Speciale.html">458Speciale </a>
+                        </li>
+                        <li>
+                          <a href="Ferrari F8 Tributo.html">F8 Tributo</a>
+                        </li>
+                        <li>
+                          <a href="Ferrari La Ferrari.html">La Ferrari</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#lamborghini">Lamborghini</a>
+                    <div class="sub-dropdown">
+                      <ul>
+                        <li>
+                          <a href="Lamborghini Aventador SV.html">Aventador </a>
+                        </li>
+                        <li>
+                          <a href="Lamborghini Revuelto.html">Revuelto</a>
+                        </li>
+                        <li><a href="Lamborghini Huracán.html">Huracán</a></li>
+                        <li>
+                          <a href="Lamborghini Murcielago.html">Murcielago</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#mclaren">Mclaren</a>
+                    <div class="sub-dropdown">
+                      <ul>
+                        <li><a href="Mclaren 720S.html">720S</a></li>
+                        <li><a href="Mclaren 765LT.html">765LT</a></li>
+                        <li><a href="Mclaren Artura.html">Artura</a></li>
+                        <li><a href="Mclaren Elva.html">Elva</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#rollsroyce">Rolls Royce</a>
+                    <div class="sub-dropdown">
+                      <ul>
+                        <li>
+                          <a href="Rolle Royce Cullinan.html">Cullinan</a>
+                        </li>
+                        <li><a href="Rolle Royce Ghost.html">Ghost</a></li>
+                        <li><a href="Rolle Royce Phantom.html">Phantom</a></li>
+                        <li><a href="Rolle Royce Wraith.html">Wraith</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#porshce">Porshce</a>
+                    <div class="sub-dropdown">
+                      <ul>
+                        <li><a href="Porshce 911 Dakar.html">911Dakar</a></li>
+                        <li><a href="Porshce GT2RS.html">GT2RS</a></li>
+                        <li><a href="Porshce GT3RS.html">GT3RS</a></li>
+                        <li><a href="Porshce Carrera T.html">CarreraT</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li>
+              <a href="">Language <i class="bx bx-chevron-down"></i></a>
+              <div class="dropdown">
+                <ul>
+                  <li><a href="index.html">English</a></li>
+                  <li><a href="index-kh.html">Khmer</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <button type="button" id="logout-btn" onclick="logout()">
+            Logout
+          </button>
+        </nav>
+      </div>
+      <link
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet"
+      />
+    </header>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Find Your Dream Car Today</h1>
+        <p>
+          Discover our premium selection of new and pre-owned vehicles from the
+          world's most prestigious brands. Quality, reliability, and exceptional
+          service guaranteed.
+        </p>
+        <div class="hero-btns">
+          <a href="#cars" class="btn">View Inventory</a>
+          <a href="#contact" class="btn btn-outline">Schedule Test Drive</a>
+        </div>
+      </div>
+    </section>
+    <!-- Featured Cars -->
+
+    <section class="featured-cars" id="cars">
+      <div class="container">
+        <!-- aston martin -->
+        <div class="section-title">
+          <h2>Featured Vehicles</h2>
+          <p>Explore our handpicked selection of premium vehicles</p>
+        </div>
+        <div class="cars-grid">
+          <!-- Car 1 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img src="img/Aston Martin/DBS/1.jpg" alt="" />
+            </div>
+            <div class="car-info">
+              <h3>Aston Martin DBS</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2022</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$316,000</div>
+              <a href="aston dbs.html" class="btn">View Details</a>
+            </div>
+          </div>
+
+          <!-- Car 2 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img src="img/Aston Martin/DB11/1.jpg" alt="Audi A7" />
+            </div>
+            <div class="car-info">
+              <h3>Aston Martin DB11</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2020</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$220,000</div>
+              <a href="aston db11.html" class="btn">View Details</a>
+            </div>
+          </div>
+
+          <!-- Car 3 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img
+                src="img/Aston Martin/DB12/1.jpg"
+                alt="Mercedes-Benz C-Class"
+              />
+            </div>
+            <div class="car-info">
+              <h3>Aston Martin DB12</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2023</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$248,086</div>
+              <a href="aston db12.html" class="btn">View Details</a>
+            </div>
+          </div>
+          <!-- Car 4 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img
+                src="img/Aston Martin/Vanquish/1.jpg"
+                alt="Mercedes-Benz C-Class"
+              />
+            </div>
+            <div class="car-info">
+              <h3>Aston Martin Vanquish</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2025</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$434,000</div>
+              <div id="bentley"></div>
+              <a href="aston Vanquish.html" class="btn">View Details</a>
+            </div>
+          </div>
+
+          <!-- bentley -->
+          <!-- car 1 -->
+
+          <div class="car-card">
+            <div class="car-img">
+              <img
+                src="img/Bentley/Bentayga Speed Edition12 - 1 of 120/1.jpg"
+                alt="Mercedes-Benz C-Class"
+              />
+            </div>
+            <div class="car-info">
+              <h3>Bentley Bentayga</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2023</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$300,000</div>
+              <a href="Bentley Bentayga.html" class="btn">View Details</a>
+            </div>
+          </div>
+          <!-- car 2 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img
+                src="img/Bentley/Continental GTC/1.jpg"
+                alt="Mercedes-Benz C-Class"
+              />
+            </div>
+            <div class="car-info">
+              <h3>Bentley Continental GTC</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2024</span>
+                <span><i class="fas fa-gas-pump"></i> Hybrid</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$323,550</div>
+              <a href="Bentley Continental GTC.html" class="btn"
+                >View Details</a
+              >
+            </div>
+          </div>
+          <!-- car 3 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img
+                src="img/Bentley/Flying Spur S/1.jpg"
+                alt="Mercedes-Benz C-Class"
+              />
+            </div>
+            <div class="car-info">
+              <h3>Bentley Flying Spur S</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2025</span>
+                <span><i class="fas fa-gas-pump"></i> Hybrid</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$278,950</div>
+              <a href="Bentley Flying Spur S.html" class="btn">View Details</a>
+            </div>
+          </div>
+          <!-- car 4 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img
+                src="img/Bentley/cgt speed/1.jpg"
+                alt="Mercedes-Benz C-Class"
+              />
+            </div>
+            <div class="car-info">
+              <h3>Continental GT Speed</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2025</span>
+                <span><i class="fas fa-gas-pump"></i> hybrid</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$305,250</div>
+              <div id="ferrari"></div>
+              <a href="bentley cgt speed.html" class="btn">View Details</a>
+            </div>
+          </div>
+
+          <!-- ferrari -->
+          <!-- car 1 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img
+                src="img/ferrari/Purosangue/1.jpg"
+                alt="Mercedes-Benz C-Class"
+              />
+            </div>
+            <div class="car-info">
+              <h3>Ferrari Purosangue</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2025</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$402,000</div>
+              <a href="Ferrari Purosangue.html" class="btn">View Details</a>
+            </div>
+          </div>
+          <!-- car 2 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img
+                src="img/ferrari/458 Speciale/1.jpg"
+                alt="Mercedes-Benz C-Class"
+              />
+            </div>
+            <div class="car-info">
+              <h3>Ferrari 458 Speciale</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2016</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$291,744</div>
+              <a href="Ferrari 458 Speciale.html" class="btn">View Details</a>
+            </div>
+          </div>
+          <!-- car 3 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img
+                src="img/ferrari/F8 Tributo/1.jpg"
+                alt="Mercedes-Benz C-Class"
+              />
+            </div>
+            <div class="car-info">
+              <h3>Ferrari F8 Tributo</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2023</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$296,700</div>
+              <a href="Ferrari F8 Tributo.html" class="btn">View Details</a>
+            </div>
+          </div>
+          <!-- car 4 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img
+                src="img/ferrari/LA FERRARI/1.jpg"
+                alt="Mercedes-Benz C-Class"
+              />
+            </div>
+            <div class="car-info">
+              <h3>Ferrari La Ferrari</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2014</span>
+                <span><i class="fas fa-gas-pump"></i> Hybrid</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$4,000,000</div>
+              <div id="lamborghini"></div>
+              <a href="Ferrari La Ferrari.html" class="btn">View Details</a>
+            </div>
+          </div>
+
+          <!-- lamborghini -->
+          <!-- car 1 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img
+                src="img/lambo/Aventador SV/1.jpg"
+                alt="Mercedes-Benz C-Class"
+              />
+            </div>
+            <div class="car-info">
+              <h3>Lamborghini Aventador SV</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2015</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$499,000</div>
+              <a href="Lamborghini Aventador SV.html" class="btn"
+                >View Details</a
+              >
+            </div>
+          </div>
+          <!-- car 2 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img src="img/lambo/Revuelto/1.jpg" alt="Mercedes-Benz C-Class" />
+            </div>
+            <div class="car-info">
+              <h3>Lamborghini Revuelto</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2025</span>
+                <span><i class="fas fa-gas-pump"></i> Hybrid</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$604,000</div>
+              <a href="Lamborghini Revuelto.html" class="btn">View Details</a>
+            </div>
+          </div>
+          <!-- car 3 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img
+                src="img/lambo/Huracán Sterrato 60th Anniversary!/1.jpg"
+                alt="Mercedes-Benz C-Class"
+              />
+            </div>
+            <div class="car-info">
+              <h3>Lamborghini Huracán</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2023</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$273,000</div>
+              <a href="Lamborghini Huracán.html" class="btn">View Details</a>
+            </div>
+          </div>
+          <!-- car 4 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img src="img/lambo/murcy/1.jpg" alt="Mercedes-Benz C-Class" />
+            </div>
+            <div class="car-info">
+              <h3>Lamborghini Murcielago</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2008</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$450,000</div>
+              <div id="mclaren"></div>
+              <a href="Lamborghini Murcielago.html" class="btn">View Details</a>
+            </div>
+          </div>
+
+          <!-- mclaren -->
+          <!-- car 1 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img src="img/mclaren/720s/1.jpg" alt="Mercedes-Benz C-Class" />
+            </div>
+            <div class="car-info">
+              <h3>Mclaren 720S</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2020</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$350,000</div>
+              <a href="Mclaren 720S.html" class="btn">View Details</a>
+            </div>
+            <!-- car 2 -->
+          </div>
+          <!-- car 2 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img src="img/mclaren/765lt/1.jpg" alt="Mercedes-Benz C-Class" />
+            </div>
+            <div class="car-info">
+              <h3>Mclaren 765LT</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2022</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$438,000</div>
+              <a href="Mclaren 765LT.html" class="btn">View Details</a>
+            </div>
+          </div>
+          <!-- car 3 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img src="img/mclaren/Artura/1.jpg" alt="Mercedes-Benz C-Class" />
+            </div>
+            <div class="car-info">
+              <h3>Mclaren Artura</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2023</span>
+                <span><i class="fas fa-gas-pump"></i> Hybrid</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$325,000</div>
+              <a href="Mclaren Artura.html" class="btn">View Details</a>
+            </div>
+          </div>
+          <!-- car 4 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img src="img/mclaren/Elva/1.jpg" alt="Mercedes-Benz C-Class" />
+            </div>
+            <div class="car-info">
+              <h3>Mclaren Elva</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2020</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$2,000,000</div>
+              <div id="rollsroyce"></div>
+              <a href="Mclaren Elva.html" class="btn">View Details</a>
+            </div>
+          </div>
+
+          <!-- rolls royce -->
+          <!-- car 1 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img
+                src="img/rr/Cullinan Black Badge 2026/1.jpg"
+                alt="Mercedes-Benz C-Class"
+              />
+            </div>
+            <div class="car-info">
+              <h3>Rolle Royce Cullinan</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2023</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$492,750</div>
+              <a href="Rolle Royce Cullinan.html" class="btn">View Details</a>
+            </div>
+            <!-- car 2 -->
+          </div>
+          <!-- car 2 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img src="img/rr/Ghost/1.jpg" alt="Mercedes-Benz C-Class" />
+            </div>
+            <div class="car-info">
+              <h3>Rolle Royce Ghost</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2025</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$398,850</div>
+              <a href="Rolle Royce Ghost.html" class="btn">View Details</a>
+            </div>
+          </div>
+          <!-- car 3 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img
+                src="img/rr/Phantom Drophead Coupe/1.jpg"
+                alt="Mercedes-Benz C-Class"
+              />
+            </div>
+            <div class="car-info">
+              <h3>Rolle Royce Phantom</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2025</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$600,000</div>
+              <a href="Rolle Royce Phantom.html" class="btn">View Details</a>
+            </div>
+          </div>
+          <!-- car 4 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img
+                src="img/rr/Wraith Eagle VIII Edition/1.jpg"
+                alt="Mercedes-Benz C-Class"
+              />
+            </div>
+            <div class="car-info">
+              <h3>Rolle Royce Wraith</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2020</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$400,000</div>
+              <div id="porshce"></div>
+              <a href="Rolle Royce Wraith.html" class="btn">View Details</a>
+            </div>
+          </div>
+
+          <!-- porshce -->
+          <!-- car 1 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img
+                src="img/porshe/911 Dakar redefines adventure/1.jpg"
+                alt="Mercedes-Benz C-Class"
+              />
+            </div>
+            <div class="car-info">
+              <h3>Porshce 911 Dakar</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2023</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$280,000</div>
+              <a href="Porshce 911 Dakar.html" class="btn">View Details</a>
+            </div>
+            <!-- car 2 -->
+          </div>
+          <!-- car 2 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img src="img/porshe/GT2 RS/1.jpg" alt="Mercedes-Benz C-Class" />
+            </div>
+            <div class="car-info">
+              <h3>Porshce GT2RS</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2019</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$293,300</div>
+              <a href="Porshce GT2RS.html" class="btn">View Details</a>
+            </div>
+          </div>
+          <!-- car 3 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img src="img/porshe/GT3 RS/1.jpg" alt="Mercedes-Benz C-Class" />
+            </div>
+            <div class="car-info">
+              <h3>Porshce GT3RS</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2023</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$250,000</div>
+              <a href="Porshce GT3RS.html" class="btn">View Details</a>
+            </div>
+          </div>
+          <!-- car 4 -->
+          <div class="car-card">
+            <div class="car-img">
+              <img
+                src="img/porshe/Carrera T/1.jpg"
+                alt="Mercedes-Benz C-Class"
+              />
+            </div>
+            <div class="car-info">
+              <h3>Porshce Carrera T</h3>
+              <div class="car-details">
+                <span><i class="fas fa-road"></i> 2021</span>
+                <span><i class="fas fa-gas-pump"></i> Gasoline</span>
+                <span><i class="fas fa-cogs"></i> Automatic</span>
+              </div>
+              <div class="car-price">$140,000</div>
+              <a href="Porshce Carrera T.html" class="btn">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Services</h2>
+          <p>Comprehensive automotive solutions for every need</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-car"></i>
+            </div>
+            <h3>New Car Sales</h3>
+            <p>
+              Latest models from top manufacturers with competitive pricing and
+              financing options.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-car-crash"></i>
+            </div>
+            <h3>Pre-Owned Vehicles</h3>
+            <p>
+              Certified pre-owned cars with thorough inspections and warranty
+              coverage.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3>Maintenance & Repair</h3>
+            <p>
+              Factory-trained technicians using genuine parts for all service
+              needs.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-file-invoice-dollar"></i>
+            </div>
+            <h3>Financing Options</h3>
+            <p>
+              Flexible payment plans and leasing options tailored to your
+              budget.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>Why Choose Essa Motorcars?</h2>
+            <p>
+              With over 15 years of experience in the automotive industry, Essa
+              Motorcars has built a reputation for excellence, integrity, and
+              customer satisfaction. We believe in providing an exceptional car
+              buying experience from start to finish.
+            </p>
+            <p>
+              Our team of knowledgeable professionals is dedicated to helping
+              you find the perfect vehicle that matches your lifestyle and
+              budget. We offer a wide selection of new and pre-owned vehicles
+              from the world's most prestigious brands.
+            </p>
+
+            <div class="about-stats">
+              <div class="stat-item">
+                <div class="stat-number">15+</div>
+                <div>Years Experience</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">5000+</div>
+                <div>Cars Sold</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">98%</div>
+                <div>Customer Satisfaction</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">24/7</div>
+                <div>Support</div>
+              </div>
+            </div>
+          </div>
+          <div class="about-img">
+            <img src="img/eurocar-dealership.jpg" alt="Dealership Showroom" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact Us</h2>
+          <p>Get in touch with our team for any inquiries</p>
+        </div>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Visit Our Dealership</h3>
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                  <h4>Address</h4>
+                  <p>
+                    MX08 (CBD4), City Center, Boeung Kok, Sangkat Sras, Phnom
+                    Penh
+                  </p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div>
+                  <h4>Phone</h4>
+                  <p>(855) 77 30 73 73</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                  <h4>Email</h4>
+                  <p>info@essamotorcars.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div>
+                  <h4>Business Hours</h4>
+                  <p>
+                    Mon-Fri: 7:00 AM - 8:00 PM<br />Sat: 7:00 AM - 6:00 PM<br />Sun:
+                    :00 AM - 5:00 PM
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.7262323702513!2d104.91001540008936!3d11.572640173795811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951b341701ceb%3A0x4191882e1ac700c1!2sLamborghini%20Phnom%20Penh!5e1!3m2!1sen!2skh!4v1759683905166!5m2!1sen!2skh"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <!-- <div class="contact-form">
+            <form>
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required />
+              </div>
+              <div class="form-group">
+                <input type="tel" placeholder="Your Phone" />
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Essa Motorcars</h3>
+            <p>
+              Premium car dealership offering new and pre-owned luxury vehicles
+              with exceptional customer service and support.
+            </p>
+            <div class="social-links">
+              <a href="https://www.facebook.com/choub.punreay"
+                ><i class="bx bxl-facebook-circle"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/choubpunreay?igsh=eWlnMzdsOTdoN3Nw"
+                ><i class="bx bxl-instagram-alt"></i
+              ></a>
+              <a href="https:/t.me/choubpunreay"
+                ><i class="bx bxl-telegram"></i
+              ></a>
+              <a
+                href="https://www.tiktok.com/@essa404.exe?_t=ZS-90IxRQtlaZJ&_r=1"
+                ><i class="bx bxl-tiktok"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#cars">Inventory</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Popular Models</h3>
+            <ul class="footer-links">
+              <li><a href="#cars">Aston Martin </a></li>
+              <li><a href="#bentley">Bentley </a></li>
+              <li><a href="#ferrari">Ferrari </a></li>
+              <li><a href="#lamborghini">Lamborghini </a></li>
+              <li><a href="#mclaren">Mclaren </a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Newsletter</h3>
+            <p>
+              Subscribe to receive updates on new arrivals and special offers.
+            </p>
+            <form>
+              <div class="form-group">
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  style="width: 100%; padding: 10px; margin-top: 10px"
+                />
+              </div>
+              <button
+                type="submit"
+                class="btn"
+                style="width: 100%; margin-top: 10px"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Essa Motorcars. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <div class="goto">
+      <a href="#top"><img src="img/icons8-arrow-48 (2).png" alt="" /></a>
+    </div>
+    <marquee class="mar" onmouseover="this.stop()" onmouseout="this.start()"
+      >រចនាដោយនិស្សិត វិទ្យាស្ថានស៊ីតិក | និស្សិតឈ្មោះ សើង សម្បត្តិ | ជំនាញ
+      គ្រប់គ្រងព័ត៏មានវិទ្យា | ក្រុមSW14 | ង្រៀនដោយលោកគ្រូ រី វិសាន |
+      Final-Project</marquee
+    >
+  </body>
+  <script src="../index.js"></script>
+  
+</html>
